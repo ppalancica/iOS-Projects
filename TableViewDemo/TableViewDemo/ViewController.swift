@@ -13,10 +13,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var tableView: UITableView!
     
     private let dayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+    private let tableViewCellIdentifier = NSStringFromClass(UITableViewCell.self)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.tableView.register(UITableViewCell.classForCoder(), forCellReuseIdentifier: tableViewCellIdentifier)
         
         self.tableView.dataSource = self
         self.tableView.delegate = self
@@ -32,9 +35,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        let cell = tableView.dequeueReusableCell(withIdentifier: tableViewCellIdentifier, for: indexPath)
+        let dayName = self.dayNames[indexPath.row]
         
-        cell.textLabel?.text = self.dayNames[indexPath.row]
+        cell.textLabel?.text = dayName
         
         return cell
     }
