@@ -49,10 +49,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        performSegue(withIdentifier: "goToDayDetailsSegue", sender: nil)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return CGFloat(60.0)
+    }
+    
+    // MARK: - Navigation methods
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToDayDetailsSegue" {
+            
+        }
     }
 }
 

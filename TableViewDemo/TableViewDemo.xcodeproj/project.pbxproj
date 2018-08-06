@@ -12,6 +12,7 @@
 		B43E4E2B21124CCF00A80BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43E4E2921124CCF00A80BCA /* Main.storyboard */; };
 		B43E4E2D21124CD000A80BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43E4E2C21124CD000A80BCA /* Assets.xcassets */; };
 		B43E4E3021124CD000A80BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43E4E2E21124CD000A80BCA /* LaunchScreen.storyboard */; };
+		B4E37A842118E5EB003EA707 /* DayDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E37A832118E5EB003EA707 /* DayDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B43E4E2C21124CD000A80BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B43E4E2F21124CD000A80BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B43E4E3121124CD000A80BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4E37A832118E5EB003EA707 /* DayDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				B43E4E2521124CCF00A80BCA /* AppDelegate.swift */,
 				B43E4E2721124CCF00A80BCA /* ViewController.swift */,
+				B4E37A832118E5EB003EA707 /* DayDetailsViewController.swift */,
 				B43E4E2921124CCF00A80BCA /* Main.storyboard */,
 				B43E4E2C21124CD000A80BCA /* Assets.xcassets */,
 				B43E4E2E21124CD000A80BCA /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E37A842118E5EB003EA707 /* DayDetailsViewController.swift in Sources */,
 				B43E4E2821124CCF00A80BCA /* ViewController.swift in Sources */,
 				B43E4E2621124CCF00A80BCA /* AppDelegate.swift in Sources */,
 			);
