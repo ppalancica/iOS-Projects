@@ -17,6 +17,8 @@
 		6FA80D3929C2332A0038CC3B /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA80D3829C2332A0038CC3B /* ResultsViewController.swift */; };
 		6FA80D3B29C233A40038CC3B /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FA80D3A29C233A40038CC3B /* ResultsViewController.xib */; };
 		6FA80D3D29C24FCB0038CC3B /* TableViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA80D3C29C24FCB0038CC3B /* TableViewHelpers.swift */; };
+		6FA80D3F29C258BE0038CC3B /* CorrectAnswerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FA80D3E29C258BE0038CC3B /* CorrectAnswerCell.xib */; };
+		6FA80D4C29C32E250038CC3B /* WrongAnswerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FA80D4B29C32E250038CC3B /* WrongAnswerCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		6FA80D3829C2332A0038CC3B /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		6FA80D3A29C233A40038CC3B /* ResultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultsViewController.xib; sourceTree = "<group>"; };
 		6FA80D3C29C24FCB0038CC3B /* TableViewHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHelpers.swift; sourceTree = "<group>"; };
+		6FA80D3E29C258BE0038CC3B /* CorrectAnswerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CorrectAnswerCell.xib; sourceTree = "<group>"; };
+		6FA80D4B29C32E250038CC3B /* WrongAnswerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WrongAnswerCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,12 +90,14 @@
 			children = (
 				6F48041829C0EE6B003984D9 /* AppDelegate.swift */,
 				6F48042129C0EE6C003984D9 /* Assets.xcassets */,
+				6FA80D3E29C258BE0038CC3B /* CorrectAnswerCell.xib */,
 				6F48042629C0EE6C003984D9 /* Info.plist */,
 				6F48042329C0EE6C003984D9 /* LaunchScreen.storyboard */,
 				6F48044A29C0F0CF003984D9 /* QuestionViewController.swift */,
 				6F48044C29C0F1D3003984D9 /* QuestionViewController.xib */,
 				6FA80D3829C2332A0038CC3B /* ResultsViewController.swift */,
 				6FA80D3A29C233A40038CC3B /* ResultsViewController.xib */,
+				6FA80D4B29C32E250038CC3B /* WrongAnswerCell.xib */,
 			);
 			path = QuizApp;
 			sourceTree = "<group>";
@@ -189,8 +195,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F48042529C0EE6C003984D9 /* LaunchScreen.storyboard in Resources */,
+				6FA80D4C29C32E250038CC3B /* WrongAnswerCell.xib in Resources */,
 				6F48042229C0EE6C003984D9 /* Assets.xcassets in Resources */,
 				6F48044D29C0F1D3003984D9 /* QuestionViewController.xib in Resources */,
+				6FA80D3F29C258BE0038CC3B /* CorrectAnswerCell.xib in Resources */,
 				6FA80D3B29C233A40038CC3B /* ResultsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
